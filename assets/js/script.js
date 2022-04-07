@@ -1,5 +1,5 @@
 var formEl = document.querySelector("#bill-form");
-// var tasksToDoEl = document.querySelector("#tasks-to-do");
+var tasksToDoEl = document.querySelector("#bill-to-calc");
 var billIdCounter = 0;
 var pageContentEl = document.querySelector("#page-content");
 
@@ -22,4 +22,4 @@ var billFormHandler = function(event) {
     name: billNameInput,
     type: peopleAmountInput
   };
-}
+  }
