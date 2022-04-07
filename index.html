@@ -9,6 +9,33 @@
 </head>
 <body>
     
+    <header>
+        <h1 class="page-title">Pay Up</h1>
+
+<!-- short description about the site -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+        <form id="bill-form">
+            <div class="bill-group">
+              <select name="bill-type" class="select-dropdown">
+            <option value="" disabled selected>What is the bill for?</option>
+                <option value="Food">Food</option>
+                <option value="Travel">Travel</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Other">Other</option>
+              </select>
+              
+            <div class="bill-group">
+              <input type="number" value="0" min="0" name="peopleamount" placeholder="How many people" />
+            </div>
+            
+            </div>
+            <div class="bill-group">
+              <button class="btn" id="save-task" type="submit">Start</button>
+            </div>
+          </form>
+
+    </header>
    <script src="./assets/js/script.js"></script>
 </body>
 </html>
