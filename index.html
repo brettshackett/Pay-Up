@@ -9,6 +9,33 @@
 </head>
 <body>
     
+    <header>
+        <h1 class="page-title">Pay Up</h1>
+
+<!-- short description about the site -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+        <form id="bill-form">
+            <div class="bill-group">
+            <input type="text" name="bill-name" placeholder="What is the bill for?" />
+              
+            <div class="bill-group">
+              <input type="number" min="0" name="peopleamount" placeholder="How many people" />
+            </div>
+            
+            </div>
+            <div class="bill-group">
+              <button class="btn" id="start-bill" type="submit">Start</button>
+            </div>
+          </form>
+          
+    </header>
+    
+    <main class="page-content" id="page-content">
+            <section class="bill-list-wrapper">
+              <h2 class="list-title">Current Bill</h2>
+              <ul class="bill-list" id="bill-to-calc"></ul>
+            </section>
    <script src="./assets/js/script.js"></script>
 </body>
 </html>
