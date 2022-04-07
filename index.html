@@ -17,25 +17,25 @@
 
         <form id="bill-form">
             <div class="bill-group">
-              <select name="bill-type" class="select-dropdown">
-            <option value="" disabled selected>What is the bill for?</option>
-                <option value="Food">Food</option>
-                <option value="Travel">Travel</option>
-                <option value="Shopping">Shopping</option>
-                <option value="Other">Other</option>
-              </select>
+            <input type="text" name="bill-name" placeholder="What is the bill for?" />
               
             <div class="bill-group">
-              <input type="number" value="0" min="0" name="peopleamount" placeholder="How many people" />
+              <input type="number" min="0" name="peopleamount" placeholder="How many people" />
             </div>
             
             </div>
             <div class="bill-group">
-              <button class="btn" id="save-task" type="submit">Start</button>
+              <button class="btn" id="start-bill" type="submit">Start</button>
             </div>
           </form>
-
+          
     </header>
+    
+    <main class="page-content" id="page-content">
+            <section class="bill-list-wrapper">
+              <h2 class="list-title">Current Bill</h2>
+              <ul class="bill-list" id="bill-to-calc"></ul>
+            </section>
    <script src="./assets/js/script.js"></script>
 </body>
 </html>
