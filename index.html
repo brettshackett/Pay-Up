@@ -6,9 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Pay Up</title>
+    <link rel="icon" type="favicon" href="assets/images/favicon.ico">
+    <meta name="searchkeywords" content="split the bills, convert bills into other currency, how to split costs in group, how to split expenses in group, road trips, share bills, bills calculator, expenses calculator, split expenses caluclator, shared bills, bills app, shared expenses app, bills paid, splitting expenses, app for splitting bills, split mobile, split cost app, split costs calculator, trip, settle debts, shared expenses, shared costs, Group spendings, Calculate transactions, Who owes whom how much, Who pay whom how much, IOU, pay back debts, share bills, Balance, Split costs with friends, calculator, uneven splits">
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 </head>
 <body>
-    
-   <script src="./assets/js/script.js"></script>
+    <header>
+    <h1 class="page-title">Pay Up</h1>
+    <!-- short description about the site -->
+    <h2 class="Welcome">Welcome to Pay-Up!  A simple way to split your dinner bills with your friends or dinner guests.</h2>
+    <p></p>
+    <form id="bill-form">
+        <div class="bill-group">
+        <input type="text" name="bill-name" placeholder="What is the bill for?" />
+        <div class="bill-group">
+          <input type="number" min="0" name="peopleamount" placeholder="How many people" />
+        </div>
+        
+        </div>
+        <div class="bill-group">
+          <button class="btn" id="start-bill" type="submit">Start</button>
+          <button id="PayUp" class="btn">Pay Up</button>
+        </div>
+      </form>
+</header>
+<main class="page-content" id="page-content">
+    <section class="bill-list-wrapper">
+      <h2 class="list-title">Current Bill</h2>
+      <ul class="bill-list" id="bill-to-calc"></ul>
+    </section>
+<bottom pic="Pay" id="man-pic">
+    <a href="./assets/images/payupPic3.png"></a>
+</bottom>
 </body>
+<script src="./assets/js/script.js"></script>
+
 </html>
