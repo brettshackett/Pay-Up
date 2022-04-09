@@ -29,13 +29,28 @@
             
             </div>
             <div class="bill-group">
-              <button class="btn" id="start-bill" type="submit">Start</button>
+              
+             <!-- Commented this out to not lose the code, was not able to make a link using the button function, help!
+               
+              <button class="btn" id="start-bill" type="submit">Start</button> --> 
+
+             <!-- Code below is the attempt to make the button link, it pops up but doesnt go to the secondary page
+               
+              <a href="./calculate.html">
+              <button class="btn" id="calculate" type="submit">Calculate</button>
+            </a>
+ -->
+              <a href="./calculate.html">
+                Start
+              </a>
             </div>
           </form>  
-            
+       
     </header>
 
-    <!--Main Section-->
+    <!--Main Sectionwas moved to calculate page, leaving this hear incase we want to take a different approach to having a second page
+
+      
     <main class="page-content" id="page-content">
             <section class="bill-list-wrapper">
               <h2 class="list-title">Current Bill</h2>
@@ -45,7 +60,7 @@
                 <br>
                 <input type="text" name="amount" placeholder="How much is the bill?" />
 
-                <!--
+                
 
 
                  <input type="text" name="names" placeholder="Person 2" />
@@ -63,14 +78,14 @@
                 <input type="text" name="names" placeholder="Person 5 " />
                 <br>
                 <input type="text" name="amount" placeholder="How much is the bill?" />
-                -->
+                
                 
                 <div class="bill-calculation">
                   <button class="btn" id="calculate" type="submit">Calculate</button>
                 </div>
               
             </section>
-
+          -->
    <script src="./assets/js/script.js"></script>
 </body>
 </html>
