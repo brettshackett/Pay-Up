@@ -4,46 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/foundation.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Pay Up</title>
     <link rel="icon" type="favicon" href="assets/images/favicon.ico">
-    <meta name="searchkeywords" content="split the bills, convert bills into other currency, how to split costs in group, how to split expenses in group, road trips, share bills, bills calculator, expenses calculator, split expenses caluclator, shared bills, bills app, shared expenses app, bills paid, splitting expenses, app for splitting bills, split mobile, split cost app, split costs calculator, trip, settle debts, shared expenses, shared costs, Group spendings, Calculate transactions, Who owes whom how much, Who pay whom how much, IOU, pay back debts, share bills, Balance, Split costs with friends, calculator, uneven splits">
-    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 </head>
+
 <body>
     <header>
-    <h1 class="page-title">Pay Up</h1>
-    <!-- short description about the site -->
-    <h2 class="Welcome">Welcome to Pay-Up!  A simple way to split your dinner bills with your friends or dinner guests.</h2>
-    <p></p>
-    <form id="bill-form">
-        <div class="bill-group">
-        <input type="text" name="bill-name" placeholder="What is the bill for?" />
-        <div class="bill-group">
-          <input type="number" min="0" name="peopleamount" placeholder="How many people" />
-        </div>
-        
-        </div>
-        <div class="bill-group">
-          <button class="btn" id="start-bill" type="submit">Start</button>
-          <button id="PayUp" class="btn">Pay Up</button>
-        </div>
-      </form>
-</header>
-<main class="page-content" id="page-content">
-    <section class="bill-list-wrapper">
-      <h2 class="list-title">Current Bill</h2>
-      <ul class="bill-list" id="bill-to-calc"></ul>
-    </section>
-<bottom pic="Pay" id="man-pic">
-    <a href="./assets/images/payupPic3.png"></a>
-</bottom>
+        <h1 class="page-title">Pay Up</h1>
+
+<!-- short description about the site -->
+        <p>Welcome to Pay up, where we do the calculations for you.
+            <br>
+            Enter the information below and click start!
+        </p>
+
+        <form id="bill-form">
+            <div class="bill-group">
+            <input type="text" name="bill-name" placeholder="What is the bill for?" />
+              
+            <div class="bill-group">
+              <input type="number" min="0" name="peopleamount" placeholder="How many people" />
+            </div>
+            
+            </div>
+            <div class="bill-group">
+              
+             <!-- Commented this out to not lose the code, was not able to make a link using the button function, help!
+               
+              <button class="btn" id="start-bill" type="submit">Start</button> --> 
+
+             <!-- Code below is the attempt to make the button link, it pops up but doesnt go to the secondary page
+               
+              <a href="./calculate.html">
+              <button class="btn" id="calculate" type="submit">Calculate</button>
+            </a>
+ -->
+              <a class="btn" href=./calculate.html>Start</a>
+            </div>
+          </form>  
+       
+    </header>
+
+    <!--Main Sectionwas moved to calculate page, leaving this hear incase we want to take a different approach to having a second page
+    <main class="page-content" id="page-content">
+            <section class="bill-list-wrapper">
+              <h2 class="list-title">Current Bill</h2>
+              <ul class="bill-list" id="bill-to-calc"></ul>
+              
+                <input type="text" name="names" placeholder="Person 1" />
+                <br>
+                <input type="text" name="amount" placeholder="How much is the bill?" />
+                
+                 <input type="text" name="names" placeholder="Person 2" />
+                <br>
+                <input type="text" name="amount" placeholder="How much is the bill?" />
+                <input type="text" name="names" placeholder="Person 3" />
+                <br>
+                <input type="text" name="amount" placeholder="How much is the bill?" />
+                <input type="text" name="names" placeholder="Person 4" />
+                <br>
+                <input type="text" name="amount" placeholder="How much is the bill?" />
+                <input type="text" name="names" placeholder="Person 5 " />
+                <br>
+                <input type="text" name="amount" placeholder="How much is the bill?" />
+                
+                
+                <div class="bill-calculation">
+                  <button class="btn" id="calculate" type="submit">Calculate</button>
+                </div>
+              
+            </section>
+          -->
+   <script src="./assets/js/script.js"></script>
 </body>
-<main>
-  <div id="myWeather"></div>
-</main>
-
-<script src="./assets/js/script.js"></script>
-
 </html>
