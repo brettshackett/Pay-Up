@@ -3,6 +3,7 @@ var tasksToDoEl = document.querySelector("#bill-to-calc");
 var billIdCounter = 0;
 var pageContentEl = document.querySelector("#page-content");
 
+
 var billFormHandler = function(event) {
   event.preventDefault();
   var billNameInput = document.querySelector("input[name='bill-name'").value;
