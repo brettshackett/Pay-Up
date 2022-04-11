@@ -3,7 +3,10 @@ var tasksToDoEl = document.querySelector("#bill-to-calc");
 var billIdCounter = 0;
 var pageContentEl = document.querySelector("#page-content");
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 13203221468c9d2ddf59bd36b1cee8e2cc91cca0
 var billFormHandler = function(event) {
   event.preventDefault();
   var billNameInput = document.querySelector("input[name='bill-name'").value;
@@ -23,4 +26,8 @@ var billFormHandler = function(event) {
     name: billNameInput,
     type: peopleAmountInput
   };
+<<<<<<< HEAD
   }
+=======
+  }
+>>>>>>> 13203221468c9d2ddf59bd36b1cee8e2cc91cca0
