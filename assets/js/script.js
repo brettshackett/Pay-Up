@@ -2,11 +2,17 @@ var formEl = document.querySelector("#bill-form");
 var tasksToDoEl = document.querySelector("#bill-to-calc");
 var billIdCounter = 0;
 var pageContentEl = document.querySelector("#page-content");
+var APIkeyWeather = "0ed751aee02b60e3e3109adbed6b18e3"
+var city;
 
-<<<<<<< HEAD
+function getWeather(city) {
+  //  Using saved city name, execute a current condition get request from open weather map api
+          let queryURL = "https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=0ed751aee02b60e3e3109adbed6b18e3"
+          axios.get(queryURL)
+          .then(function(response){
+              console.log(response);
 
-=======
->>>>>>> 13203221468c9d2ddf59bd36b1cee8e2cc91cca0
+
 var billFormHandler = function(event) {
   event.preventDefault();
   var billNameInput = document.querySelector("input[name='bill-name'").value;
@@ -26,8 +32,3 @@ var billFormHandler = function(event) {
     name: billNameInput,
     type: peopleAmountInput
   };
-<<<<<<< HEAD
-  }
-=======
-  }
->>>>>>> 13203221468c9d2ddf59bd36b1cee8e2cc91cca0
