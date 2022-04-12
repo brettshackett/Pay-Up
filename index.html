@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/foundation.css">
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Pay Up</title>
     <link rel="icon" type="favicon" href="assets/images/favicon.ico">
@@ -20,17 +21,20 @@
             Enter the information below and click start!
         </p>
 
-        <form id="bill-form">
-            <div class="bill-group">
-            <input type="text" name="bill-name" placeholder="What is the bill for?" />
-              
-            <div class="bill-group">
-              <input type="number" min="0" name="peopleamount" placeholder="How many people" />
-            </div>
+        <form class="align-center-middle input-group" id="bill-form">
+            <div>
+              <div>
+                <input type="text" name="bill-name" placeholder="What is the bill for?" />
+              </div>
+
+              <div>
+                <input type="number" min="0" name="peopleamount" placeholder="How many people" />
+              </div>
             
             </div>
-            <div class="bill-group">
-              
+          </form>
+          <div class="grid-x grid-padding-x align-center">
+              <div>
              <!-- Commented this out to not lose the code, was not able to make a link using the button function, help!
                
               <button class="btn" id="start-bill" type="submit">Start</button> --> 
@@ -41,9 +45,12 @@
               <button class="btn" id="calculate" type="submit">Calculate</button>
             </a>
  -->
-              <a class="btn" href=./calculate.html>Start</a>
-            </div>
-          </form>  
+            
+                <a class="btn cell small-4 " href=./calculate.html>Start</a>
+              </div>
+            
+          </div>
+           
        
     </header>
 
@@ -94,5 +101,6 @@
            </p>
 
    <script src="./assets/js/script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js" crossorigin="anonymous"></script>
 </body>
 </html>

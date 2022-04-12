@@ -29,6 +29,10 @@ form {
 text-align:center;
 }
 
+a{
+
+}
+
 .btn {
   background-color: blueviolet;
   font-family: Comic Sans MS, Comic Sans, cursive;
@@ -48,12 +52,14 @@ text-align:center;
 }
 
 .btn:hover {
-  opacity: 1
+  opacity: 1;
+  color:white !important;
 }
 
 .btn:active {
 box-shadow: 0 5px #666;
 transform: translateY(5px);
+
 }
 
 h2.list-title {
