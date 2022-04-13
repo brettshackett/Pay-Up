@@ -1,6 +1,5 @@
 * {
   background-color: #CFD3EC;
-
 }
 
 .page-title {
@@ -26,7 +25,7 @@ p {
 #paragraph {
   text-align: center;
   line-height: 1.5;
-  font-size: 110%;
+  font-size: 120%;
   padding-left: 250px;
   padding-right: 250px;
   font-family: chalkduster;
@@ -71,7 +70,7 @@ transform: translateY(5px);
 }
 
 h2.list-title {
-  font-size: 400%; 
+  font-size: 300%; 
   font-family: chalkduster;
   line-height: .1;
   background-repeat: no-repeat;
@@ -84,4 +83,30 @@ h2.list-title {
 
 section {
 text-align:center;
+}
+
+.bill-calculation {
+  padding-bottom: 20px;
+}
+
+.FXConvert {
+    font-family: Chalkduster;
+    font-size: 200%;
+    color: rgb(63, 60, 60);
+    padding: 20px;
+}
+
+.FX-para {
+  font-family: Chalkduster;
+    color: rgb(59, 58, 58);
+    padding-top: 1px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: left;
+}
+
+.To {
+  font-family: Chalkduster;
+  font-size: 100%;
+  padding-bottom: 5px;
 }
