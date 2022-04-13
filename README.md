@@ -3,11 +3,11 @@
 ![Pay Up, first page](/assets/images/payup.png)
 
 ## Description
-
 Pay-Up is a platform to split group costs and accurately determine how much the individuals owe to one another. 
 
-Sometimes it can get very difficult to determine how much each person in a group owes. For instance, roommates share a great deal of the living expenses and it can get hard to keep track of the exact amounts each person is spending. Our project focuses to solve such issues and make it easier to fairly distribute the amounts that need to be distributed. 
+Sometimes it can get very difficult to determine how much each person in a group owes. 
 
+For instance, roommates share a great deal of the living expenses and it can get hard to keep track of the exact amounts each person is spending. Our project focuses to solve such issues and make it easier to fairly distribute the amounts that need to be distributed. 
 
 ## Usage
 
@@ -57,3 +57,6 @@ Anisha, Brett, Jason, Michael and Zinia
 <https://github.com/brettshackett/Pay-Up>
 
 ## @Copyright
+
+
+
