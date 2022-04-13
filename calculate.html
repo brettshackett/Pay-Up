@@ -17,39 +17,25 @@
         <section class="bill-list-wrapper">
           <h2 class="list-title">Current Bill</h2>
           <ul class="bill-list" id="bill-to-calc"></ul>
-          
-            <input type="text" name="names" placeholder="Person 1" />
-            <br>
-            <input type="text" name="amount" placeholder="How much is the bill?" />
-
-            <!--
-
-
-             <input type="text" name="names" placeholder="Person 2" />
-            <br>
-            <input type="text" name="amount" placeholder="How much is the bill?" />
-
-            <input type="text" name="names" placeholder="Person 3" />
-            <br>
-            <input type="text" name="amount" placeholder="How much is the bill?" />
-
-            <input type="text" name="names" placeholder="Person 4" />
-            <br>
-            <input type="text" name="amount" placeholder="How much is the bill?" />
-
-            <input type="text" name="names" placeholder="Person 5 " />
-            <br>
-            <input type="text" name="amount" placeholder="How much is the bill?" />
-            -->
+            <form class="person-bill">
+              <input type="text" name="names" placeholder="Person" />
             
+              <input type="text" name="amount" placeholder="How much is the bill?" />
+            </form>
+
+            <div class="add-person">
+              <button class=btn id="add" type="button">+</button>
+          </div>
+          <div class="remove-person">       
+          <button class="btn" id="remove">-</button>
+        </div> 
             <div class="bill-calculation">
               <button class="btn" id="calculate" type="submit">Calculate</button>
-              
-
             </div>
           
         </section>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="./assets/js/script.js"></script>
     
 </body>
