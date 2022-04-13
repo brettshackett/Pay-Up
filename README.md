@@ -18,7 +18,7 @@ Sometimes it can get very difficult to determine how much each person in a group
     - Currency exchange rate convert USD to EUR option (in case you are traveling!)
 
 - Breakdown of tasks and roles:
-    Each group member created their own branch, tasks were assigned, and then as work got completed updates were merged into the main branch.
+    - Each group member created their own branch, tasks were assigned, and then as work got completed updates were merged into the main branch.
 
 - Challenges:
     - Working JavaScript code 
@@ -32,7 +32,7 @@ Sometimes it can get very difficult to determine how much each person in a group
 
 ## Credits
 
-
+Anisha, Brett, Jason, Michael and Zinia
 
 ## Live Website
 
