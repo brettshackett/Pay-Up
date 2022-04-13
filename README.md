@@ -31,17 +31,17 @@ Sometimes it can get very difficult to determine how much each person in a group
 
 ## Future Development - ### The Endless possibilities!
 
-Future development will require the use of APIs and additional coding to support features, which does not limit to——
+- Future development will require the use of APIs and additional coding to support features, which does not limit to,
     - Saving data
     - Share the result via text or email
     - Currency exchanges
     - Currency-api
     - NFT trading capabilities
     
-How will this be done!…
+- How will this be done!…
     - Chatting features
     
-Api’s that can be used…
+- Api’s that can be used…
     - TBD
 
 ## Credits
