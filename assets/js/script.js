@@ -5,4 +5,8 @@ $('#add').click(function(){
   $(form).insertAfter('.person-bill:last'); 
 });
 
+$('#remove').click(function(){
+  $('.person-bill:last').remove();
+});
+
 })
