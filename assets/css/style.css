@@ -1,6 +1,6 @@
 * {
   background-color: #CFD3EC;
-  margin-block: 10px;
+
 }
 
 .page-title {
@@ -19,18 +19,26 @@ p {
  text-align: center;
  line-height: 1.5;
  padding: 20px;
- margin-top: 10px;
- margin-bottom: 10px;
  font-size: 150%;
  font-family: chalkduster;
 }
 
-form {
-text-align:center;
+#paragraph {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 110%;
+  padding-left: 250px;
+  padding-right: 250px;
+  font-family: chalkduster;
+  color: rgb(44, 43, 43);
 }
 
-a{
+.breaker {
+    margin: none;
+}
 
+form {
+text-align:center;
 }
 
 .btn {
