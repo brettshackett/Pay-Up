@@ -1,4 +1,4 @@
-# Pay-Up
+# Pay-Up :dollar: :money_with_wings: :moneybag: :credit_card:
 
 ![Pay Up, first page](/assets/images/payup.png)
 
