@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
+    <link rel="stylesheet" href="./assets/css/foundation.css">
+=======
     <!-- Compressed CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css" crossorigin="anonymous">
+>>>>>>> 13203221468c9d2ddf59bd36b1cee8e2cc91cca0
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Pay Up</title>
     <link rel="icon" type="favicon" href="assets/images/favicon.ico">
@@ -13,7 +17,7 @@
 
 <body>
     <header>
-        <h1 class="page-title text-center">Pay Up</h1>
+        <h1 class="page-title">Pay Up</h1>
 
 <!-- short description about the site -->
         <p>Welcome to Pay up, where we do the calculations for you.
@@ -21,8 +25,19 @@
             Enter the information below and click start!
         </p>
 
-        <form class="grid-x grid-margin-x align-center-middle input-group" id="bill-form">
-            <div class="cell small-8 medium-4">
+        <form id="bill-form">
+            <div class="bill-group">
+            <input type="text" name="bill-name" placeholder="What is the bill for?" />
+              
+            <div class="bill-group">
+              <input type="number" min="0" name="peopleamount" placeholder="How many people" />
+            </div>
+            
+            </div>
+            <div class="bill-group">
+              
+        <form class="align-center-middle input-group" id="bill-form">
+            <div>
               <div>
                 <input type="text" name="bill-name" placeholder="What is the bill for?" />
               </div>
@@ -45,6 +60,9 @@
               <button class="btn" id="calculate" type="submit">Calculate</button>
             </a>
  -->
+              <a class="btn" href=./calculate.html>Start</a>
+            </div>
+          </form>  
             
                 <a class="btn cell small-4 " href=./calculate.html>Start</a>
               </div>
@@ -55,8 +73,6 @@
     </header>
 
     <!--Main Sectionwas moved to calculate page, leaving this hear incase we want to take a different approach to having a second page
-
-
     <main class="page-content" id="page-content">
             <section class="bill-list-wrapper">
               <h2 class="list-title">Current Bill</h2>
@@ -65,22 +81,29 @@
                 <input type="text" name="names" placeholder="Person 1" />
                 <br>
                 <input type="text" name="amount" placeholder="How much is the bill?" />
-
+<<<<<<< HEAD
                 
-
-
                  <input type="text" name="names" placeholder="Person 2" />
                 <br>
                 <input type="text" name="amount" placeholder="How much is the bill?" />
-
                 <input type="text" name="names" placeholder="Person 3" />
                 <br>
                 <input type="text" name="amount" placeholder="How much is the bill?" />
-
                 <input type="text" name="names" placeholder="Person 4" />
                 <br>
                 <input type="text" name="amount" placeholder="How much is the bill?" />
-
+=======
+                
+                 <input type="text" name="names" placeholder="Person 2" />
+                <br>
+                <input type="text" name="amount" placeholder="How much is the bill?" />
+                <input type="text" name="names" placeholder="Person 3" />
+                <br>
+                <input type="text" name="amount" placeholder="How much is the bill?" />
+                <input type="text" name="names" placeholder="Person 4" />
+                <br>
+                <input type="text" name="amount" placeholder="How much is the bill?" />
+>>>>>>> 13203221468c9d2ddf59bd36b1cee8e2cc91cca0
                 <input type="text" name="names" placeholder="Person 5 " />
                 <br>
                 <input type="text" name="amount" placeholder="How much is the bill?" />
