@@ -32,3 +32,4 @@ var billFormHandler = function(event) {
     name: billNameInput,
     type: peopleAmountInput
   };
+  };

@@ -1,3 +1,4 @@
+clear
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,32 +18,33 @@
 </head>
 <body>
 
+
     
     <!--Main Section-->
     <main class="page-content align-center-middle input-group" id="page-content">
         <section class="bill-list-wrapper">
           <h2 class="list-title">Current Bill</h2>
           <ul class="bill-list" id="bill-to-calc"></ul>
-          
-            <input type="text" name="names" placeholder="Person 1" />
+          <div class="grid-x grid-padding-x align-center">
+            <input class="input-form cell small-4" type="text" name="names" placeholder="Person 1" />
             <br>
-            <input type="text" name="amount" placeholder="How much is the bill?" />
-
+            <input class="input-form cell small-4" type="text" name="amount" placeholder="How much is the bill?" />
+          </div>
+          <div class="grid-x grid-padding-x align-center">
+            <input class="input-form-2 cell small-4" type="text" name="names" placeholder="Person 2" />
+            <br>
+            <input class="input-form-2 cell small-4" type="text" name="amount" placeholder="How much is the bill?" />
+          </div>
             <!--
-
-
              <input type="text" name="names" placeholder="Person 2" />
             <br>
             <input type="text" name="amount" placeholder="How much is the bill?" />
-
             <input type="text" name="names" placeholder="Person 3" />
             <br>
             <input type="text" name="amount" placeholder="How much is the bill?" />
-
             <input type="text" name="names" placeholder="Person 4" />
             <br>
             <input type="text" name="amount" placeholder="How much is the bill?" />
-
             <input type="text" name="names" placeholder="Person 5 " />
             <br>
             <input type="text" name="amount" placeholder="How much is the bill?" />
@@ -50,8 +52,6 @@
             
             <div class="bill-calculation">
               <button class="btn" id="calculate" type="submit">Calculate</button>
-              
-
             </div>
 <footer>
     <h3 class="FXConvert">Currency Conversion USD to EUR</h3>
@@ -59,8 +59,26 @@
     <button class="btn" >USD to EUR</button>
 </footer>
           
+
+            <footer class="align-center">
+              <h3 class="FXConvert">Currency Conversion USD to EUR</h3>
+              <p class="FX-para" >Click the button below to convert from USD to EUR (US dollars to European Euros)</p>
+              
+              <div class="grid-x grid-padding-x align-center">
+                <input class="input-form cell small-4" type="text" name="amount" placeholder="USD" />
+              </div> 
+               <div class="To align-center-middle">To</div>
+             <div class="grid-x grid-padding-x align-center">
+               <input class="input-form-2 cell small-4" type="text" name="amount" placeholder="EUR" />
+            </div>
+
+              <button class="btn">Click!</button>
+
+          </footer>
+    
         </section>
 
+        
 <script src="./assets/js/script.js"></script>
     
 </body>
@@ -70,7 +88,7 @@
 
 </html>
 
-</html>
+
 
 
 
