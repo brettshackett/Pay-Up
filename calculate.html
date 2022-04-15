@@ -12,25 +12,33 @@
 <body>
 
     
-    <!--Main Section-->
-    <main class="page-content" id="page-content">
+       <main class="page-content" id="page-content">
         <section class="bill-list-wrapper">
           <h2 class="list-title">Current Bill</h2>
           <ul class="bill-list" id="bill-to-calc"></ul>
-            <form class="person-bill">
-              <input type="text" name="names" placeholder="Person" />
-            
-              <input type="text" name="amount" placeholder="How much is the bill?" />
-            </form>
-
-            <div class="add-person">
+          <div>
+            <div class="person-bill" id="person-bill">
+              <input type="text" id="name" placeholder="name"/>
+              <div class="stuffs_to_clone">
+                <div class="stuff">
+                  <input type="text" id="item" placeholder="item"/>
+                  <input type="text" id="amount" placeholder="$$"/>
+                  <button class="del disabled hidden">-</button>
+              </div>
               <button class=btn id="add" type="button">+</button>
           </div>
-          <div class="remove-person">       
-          <button class="btn" id="remove">-</button>
+              <input type="text" id="total" placeholder="total"/>
+          </div>
+               
+          
+        </div>
         </div> 
-            <div class="bill-calculation">
+            <!-- <div class="bill-calculation">
+
               <button class="btn" id="calculate" type="submit">Calculate</button>
+            </div> -->
+            <div class="add-additional-person">
+              <button class=btn id="add-person" type="button">Add Person</button> 
             </div>
           
         </section>

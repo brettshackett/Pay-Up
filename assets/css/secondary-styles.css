@@ -1,1 +1,43 @@
+.person-bill {
+    display: inline-block;
+}
 
+
+.additional-item {
+     display: flex;
+ }
+
+ .hidden {
+    display:none;
+  }
+  
+  .stuff {
+    width:310px;
+    min-height:30px;
+  }
+  
+  .additional-item {
+    position:relative;
+    padding:30px;
+  }
+  
+  .del, 
+  .clone
+  {
+    z-index:999;
+    cursor:pointer;
+    background-position:left center;
+    background-repeat:no-repeat;
+    min-width:24px;
+    min-height:24px;
+    padding-left:26px;
+  }
+  
+  
+  .centered
+  {
+    text-align:center;
+  }
+  
+  
+  
