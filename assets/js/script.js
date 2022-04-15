@@ -34,7 +34,7 @@ var billFormHandler = function(event) {
   };
   };
 
-var index_current_location_json = localStorage.getItem("lifestyle-location");
+var index_current_location_json = localStorage.getItem("location");
 
 if (!index_current_location_json) {
     window.location = "./welcome.html";
@@ -76,7 +76,7 @@ async function initAutocomplete() {
             return;
         }
 
-        localStorage.setItem("lifestyle-location", JSON.stringify(places[0]));
+        localStorage.setItem("location", JSON.stringify(places[0]));
 
         window.location = "./index.html";
     });
@@ -99,6 +99,7 @@ $.ajax({
 
         // access the conversion result in json.result
         alert(json.result);
+        console.log();
                 
     }
 });
