@@ -81,3 +81,24 @@ async function initAutocomplete() {
         window.location = "./index.html";
     });
 }
+
+// set endpoint and your API key
+endpoint = 'convert';
+access_key = 'API_KEY';
+
+// define from currency, to currency, and amount
+from = 'USD';
+to = 'EUR';
+amount = '10';
+
+// execute the conversion using the "convert" endpoint:
+$.ajax({
+    url: 'http://data.fixer.io/api/' + endpoint + 'b6d6bd11c216fde32ce76aa0901ad736' + access_key +'&from=' + from + '&to=' + to + '&amount=' + amount,   
+    dataType: 'jsonp',
+    success: function(json) {
+
+        // access the conversion result in json.result
+        alert(json.result);
+                
+    }
+});

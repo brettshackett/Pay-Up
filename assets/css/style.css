@@ -58,6 +58,24 @@ text-align:center;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
 }
 
+.btnConvert {
+  background-color: blueviolet;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 20px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+
 .btn:hover {
   opacity: 1;
   color:white !important;
@@ -110,5 +128,3 @@ text-align:center;
   font-size: 100%;
   padding-bottom: 5px;
 }
-© 2022 GitHub, Inc.
-Terms
