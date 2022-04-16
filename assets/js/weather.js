@@ -1,19 +1,22 @@
 var searchBox;
 var addressInput = document.getElementById("address");
+console.log("weather")
 
-async function initAutocomplete() {
+// async function initAutocomplete() {
 
-    searchBox = new google.maps.places.SearchBox(addressInput);
+//     console.log("init weather")
 
-    searchBox.addListener("places_changed", () => {
-        const places = searchBox.getPlaces();
+//     searchBox = new google.maps.places.SearchBox(addressInput);
+
+//     searchBox.addListener("places_changed", () => {
+//         const places = searchBox.getPlaces();
         
-        if (places.length < 1) {
-            return;
-        }
+//         if (places.length < 1) {
+//             return;
+//         }
 
-        localStorage.setItem("weatherlocal", JSON.stringify(places[0]));
+//         localStorage.setItem("weatherlocal", JSON.stringify(places[0]));
 
-        window.location = "./index.html";
-    });
-}
+//         window.location = "./index.html";
+//     });
+// }
