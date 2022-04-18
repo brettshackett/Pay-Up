@@ -79,6 +79,7 @@ h2.list-title {
   font-weight: 450;
   padding: 20px;
   margin: 30px;
+  
 }
 
 section {
@@ -89,21 +90,7 @@ text-align:center;
   padding-bottom: 20px;
 }
 
-.FXConvert {
-    font-family: Chalkduster;
-    font-size: 200%;
-    color: rgb(63, 60, 60);
-    padding: 20px;
-}
 
-.FX-para {
-  font-family: Chalkduster;
-    color: rgb(59, 58, 58);
-    padding-top: 1px;
-    padding-left: 200px;
-    padding-right: 200px;
-    text-align: left;
-}
 
 .To {
   font-family: Chalkduster;
@@ -114,3 +101,12 @@ text-align:center;
 .banner {
   text-align: center;
 }
+
+.columns {
+  align-items: center;
+  text-align: center;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+h6 {
+  font-family: Comic Sans MS, Comic Sans, cursive;
