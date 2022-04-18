@@ -96,12 +96,10 @@ async function initAutocomplete() {
         .then(function(data) {
             console.log(data)
             console.log(data.main.temp)
-            
-            
-            
     // display current temp
-
         })
+      //  fetch(console.log(data.main.temp))
+      //  .then(console.log)
 
         localStorage.setItem("location", JSON.stringify(places[0]));
 
