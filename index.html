@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/foundation.css">
+    <!-- <link rel="stylesheet" href="./assets/css/foundation.css"> -->
     <!-- Compressed CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -13,7 +13,7 @@
     <script type="text" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/48/9/common.js"></script>
     <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/48/9/util.js"></script>
     <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/48/9/controls.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/48/9/places_impl.js"></script>
+    <!-- <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/48/9/places_impl.js"></script> -->
     
 </head>
 
@@ -73,6 +73,7 @@
               <input type="text" id="address" class="input is-medium pac-target-input" placeholder="Enter your address" autocomplete="off">
               </div>
               </div>
+          
 
             
             
@@ -81,11 +82,15 @@
         </header>
         <main class="">
             <div class="columns">
-                <div class="column is-6 module-box">
-                    <div class="banner">
-                        My Weather
+<!-- need to move this to the left -->
+                <!-- <div class="column is-8 module-box align-center-middle"> -->
+                    <!-- <div class="banner"> -->
+                      <div class="grid-x grid-padding-x align-center"></div>
+                        Current Weather Temperature in Your Location is
+                        <input type="text" id="" class="input is-medium pac-target-input" placeholder="Your Current Temperature" autocomplete="off">
                     </div>
-                    <div id="weather-content" class="module-box-content">
+                    <div class="weather-container d-flex flex-row justify-content-around col-8 text-center"></div>
+                    <div id="weather-content" class="module-box-content align-center-middle">
     
                     </div>
                 </div>
