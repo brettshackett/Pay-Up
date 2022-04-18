@@ -38,12 +38,12 @@ For instance, roommates share a great deal of the living expenses and it can get
     - Currency exchanges
     - Currency-api
     - NFT trading capabilities
+    - Creating the ability to link contacts allowing text
+    - Cryptocurrency exchange (including NFT)
     
 - How will this be done!…
-    - Chatting features
-    
-- Api’s that can be used…
-    - TBD
+    - Implementing chatting features
+    - Finding an api similar to what websites like metamask uses Ethereum API
 
 ## Credits
 
