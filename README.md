@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 # Pay-Up
-<<<<<<< HEAD
-does it work?
-hopefully
-F7A9A8
 =======
 =======
 # Pay-Up :dollar: :money_with_wings: :moneybag: :credit_card:
