@@ -89,12 +89,16 @@ async function initAutocomplete() {
 
         // Call weather API
 
-        fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=0ed751aee02b60e3e3109adbed6b18e3`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=0ed751aee02b60e3e3109adbed6b18e3`)
         .then(function(response) {
             return response.json()
         })
         .then(function(data) {
             console.log(data)
+            console.log(data.main.temp)
+            
+            
+            
     // display current temp
 
         })

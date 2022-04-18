@@ -20,3 +20,5 @@ console.log("weather")
 //         window.location = "./index.html";
 //     });
 // }
+
+// LoadContent("address");
