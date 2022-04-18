@@ -1,10 +1,7 @@
-# Pay-Up
-=======
-=======
 # Pay-Up :dollar: :money_with_wings: :moneybag: :credit_card:
 
 ![Pay Up, first page](/assets/images/payup.png)
->>>>>>> main
+
 
 ## Description
 Pay-Up is a platform to split group costs and accurately determine how much the individuals owe to one another. 
@@ -61,10 +58,4 @@ Anisha, Brett, Jason, Michael and Zinia
 <https://github.com/brettshackett/Pay-Up>
 
 ## @Copyright
-<<<<<<< HEAD
->>>>>>> 13203221468c9d2ddf59bd36b1cee8e2cc91cca0
-=======
 
-
-
->>>>>>> main
