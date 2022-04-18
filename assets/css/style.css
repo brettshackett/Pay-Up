@@ -4,7 +4,7 @@
 
 .page-title {
   font-size: 450%; 
-  font-family: chalkduster;
+  font-family: Comic Sans MS, Comic Sans, cursive;
   line-height: 0.7;
   background-repeat: no-repeat;
   display: flex;
@@ -19,7 +19,7 @@ p {
  line-height: 1.5;
  padding: 20px;
  font-size: 150%;
- font-family: chalkduster;
+ font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 #paragraph {
@@ -28,7 +28,7 @@ p {
   font-size: 120%;
   padding-left: 250px;
   padding-right: 250px;
-  font-family: chalkduster;
+  font-family: Comic Sans MS, Comic Sans, cursive;
   color: rgb(44, 43, 43);
 }
 
